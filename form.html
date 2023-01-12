@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="">
+        <div>
+            <label for="">Name:</label>
+            <input type="text" name="name" placeholder="Enter your name">
+        </div>
+        <br>
+        <div>
+            <label for="">Email:</label>
+            <input type="text" name="name" placeholder="Enter your email">
+        </div>
+        <br>
+        <section>
+            <fieldset>
+                <legend>Select Class</legend>
+                <div>
+                    <label for="play"></label>
+                    <input type="radio" name="class_name" id="play"> Play
+                </div>
+                <div>
+                    <label for="baby"></label>
+                    <input type="radio" name="class_name" id="baby"> Baby
+                </div>
+                <div>
+                    <label for="nursery"></label>
+                    <input type="radio" name="class_name" id="nursery"> Nursery
+                </div>
+                <div>
+                    <label for="One"></label>
+                    <input type="radio" name="class_name" id="One"> One
+                </div>
+                <div>
+                    <label for="Two"></label>
+                    <input type="radio" name="class_name" id="two"> Two
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Select medium</legend>
+                <div>
+                    <label for="eng_mdm">
+                        <input type="checkbox" name="medium" id="eng_mdm">
+                        English Medium
+                    </label>
+                </div>
+                <div>
+                    <label for="bng_mdm">
+                        <input type="checkbox" name="medium" id="bng_mdm">
+                        Bangla Medium
+                    </label>
+                </div>
+                <div>
+                    <label for="eng_vrsn">
+                        <input type="checkbox" name="medium" id="eng_vrsn">
+                        English Version
+                    </label>
+                </div>
+            </fieldset>
+
+            <div>
+                <p>Special Instruction:</p>
+                <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+
+        </section>
+    </form>
+</body>
+
+</html>
